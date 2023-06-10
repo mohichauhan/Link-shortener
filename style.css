@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #ffafaf;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  html, body {
+    height: 100%;
+}
+  .maincontainer h1{
+    color:#0a0606;
+    text-align: center;
+  }
+  form label {
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    color: #0e0d0d;
+  }
+  
+  form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin:auto;
+    border-radius: 20px;
+    border:2px solid #b93333;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  form button {
+    background-color: #fff8f8;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  form button:hover{
+    border:2px solid #d24c04;
+  }
+  
+  #short-url-container {
+    margin-top: 20px;
+  }
+  #short-url-container p{
+    text-align: center;
+    color: #7d0202;
+  }
+  
+  #short-url {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #short-url a {
+    word-wrap: break-word;
+    margin-right: 10px;
+    color: #fff;
+  }
+
+  .maincontainer
+  {
+    width:80%;
+    height: auto;
+    min-height:50px;
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+    background: #f2440a;
+    background: -webkit-linear-gradient(to right, #f62c08, #fa4f00);  
+    background: linear-gradient(to right, #f36ca0, #d43d77);
+    margin: auto;
+  }
+
+  #copy-btn{
+    background-color: #ff0b0b;
+    color: #ec3110;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .credit a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+
